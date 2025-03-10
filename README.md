@@ -30,5 +30,18 @@ Tahap akhirnya adalah tinggal memanggil seluruh kolom dari hasil penggabungan (r
 
 Berikut adalah contoh output Tabel Cohort
 
-![image](https://github.com/user-attachments/assets/af979bb1-211d-4ca6-bf2c-3d11e04ad2ca)
+![image](https://github.com/user-attachments/assets/40da1ec1-4b4b-4eb5-a735-79656cfa58bb)
 
+*note: output purchase_1st sampai purchase_10th akan semakin kecil valuenya, contoh jika purchase_10th > purchase_9th maka perlu cek kembali querynya.
+
+
+# Customer Retention Analysis
+## Analisis Vertikal
+<img width="890" alt="image" src="https://github.com/user-attachments/assets/fc1c1be8-a677-42e0-856f-353e8d6ca587" />
+
+Dari analisis jumlah klien yang membeli setiap bulan, kita dapat mengidentifikasi tren musiman seperti hari raya keagamaan, libur sekolah, atau liburan tahunan. Insight ini berguna untuk mempersiapkan strategi di tahun berikutnya, misalnya dengan menawarkan promo lebih menarik di bulan dengan transaksi rendah atau hanya fokus pada bulan dengan penjualan tinggi untuk efisiensi dan peningkatan hasil.
+
+## Analisis Horizontal
+<img width="893" alt="image" src="https://github.com/user-attachments/assets/af308f72-3ddf-412c-a926-50f46ec7a6d6" />
+
+Kita dapat menganalisis tren retensi pelanggan berdasarkan pola penurunan jumlah transaksi pada setiap pembelian berikutnya. Penurunan terbesar terjadi pada pembelian ke sekian, yang bisa mengindikasikan bahwa produk kurang sesuai dengan pelanggan atau strategi remarketing belum cukup efektif. Identifikasi faktor ini dapat membantu meningkatkan retensi melalui optimasi produk dan remarketing yang lebih agresif.
